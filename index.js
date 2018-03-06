@@ -6,5 +6,5 @@ var animation = lottie.loadAnimation({
   path: 'data.json'
 })
 
-$(".plus").click(anim.play());
-$(".minus").click(anim.pause());
+$(".plus").click(animation.play());
+$(".minus").click(animation.pause());
