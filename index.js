@@ -6,9 +6,5 @@ var animation = lottie.loadAnimation({
   path: 'data.json'
 })
 
-$(".plus").click(function(){
-    alert("The paragraph was clicked.");
-});
-$(".minus").click(function(){
-    alert("The paragraph was clicked.");
-});
+$(".plus").click(anim.play());
+$(".minus").click(anim.pause());
