@@ -3,8 +3,8 @@ var data = {"v":"5.1.1","fr":29.9700012207031,"ip":0,"op":51.0000020772726,"w":1
 var x, y;
 
 $( document ).on( "mousemove", function( event ) {
-   x = speedChange(event.pageX/100) 
-   y = sizeChange(event.pageY/25)
+   x = speedChange(event.pageX/250) 
+   y = sizeChange(event.pageY/20)
 });
 
 
